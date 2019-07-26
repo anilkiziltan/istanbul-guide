@@ -1,0 +1,269 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Istanbul</title>
+  <style>
+    header {
+      background: url(img/kuleli.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+    }
+
+    @media screen and (max-width: 670px) {
+      header {
+        min-height: 500px;
+      }
+    }
+
+    .section {
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+
+    .tabs .indicator {
+      background-color: #1a237e;
+    }
+
+    .tabs .tab a:focus,
+    .tabs .tab a:focus.active {
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo">İSTANBUL</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#photos">Fotoğraf</a></li>
+          <li><a href="#services">Servisler</a></li>
+          <li><a href="#contact">İletişim</a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a></li>
+          <li><a href="https://www.facebook.com/istanbulbuyuksehirbld/?fref=ts&rf=324503624264257" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a></li>
+          <li><a href="https://twitter.com/istanbulbld" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a></li>
+
+            <li><a href="itanbul_eng.html">ENG</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#">Photo's</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="photos">
+    <div class="row">
+      <div class="col s10 l5">
+        <img src="img/bogaz.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Ortaköy</h2>
+        <p>Ortaköy, Boğaziçi Köprüsü’nün Avrupa ayağının altında bir konumda yer alan, semtin sembolü konumdaki muhteşem
+          Ortaköy Camii, cami, kilise ve sinagog üçgeninde bulunan güzel ve renkli çarşısı ve canlı atmosferi ile
+          İstanbul’un gözde semtlerinden birisidir.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+        <img src="img/topkapi.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Topkapı Sarayı</h2>
+        <p>Topkapı Sarayı, İstanbul Sarayburnu'nda, Osmanlı İmparatorluğu'nun 600 yıllık tarihinin 400 yılı boyunca,
+          devletin idare merkezi olarak kullanılan ve Osmanlı padişahlarının yaşadığı saraydır.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/cami.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Sultan Ahmet Cami</h2>
+        <p>Sultan Ahmet Camii, 1609-1617 yılları arasında Osmanlı Padişahı I. Ahmed tarafından İstanbul'daki tarihî
+          yarımadada, Mimar Sedefkâr Mehmed Ağa'ya yaptırılmıştır..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/istanbul-1.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Kısaca İstanbul...</h2>
+        <p>İstanbul, Türkiye'de yer alan şehir ve ülkenin 81 ilinden biri. Ülkenin en kalabalık, ekonomik, tarihi ve
+          sosyo-kültürel açıdan en önemli şehridir.</p>
+        <p>İstanbul, yerleşim tarihi son yapılan Yenikapı'daki kazılarla bulunan liman doğrultusunda 8500 yıl, kentsel
+          tarihi yaklaşık 3.000, başkentlik tarihi 1600 yıla kadar uzanan Avrupa ile Asya kıtalarının kesiştiği noktada
+          bulunan bir dünya kentidir. Şehir çağlar boyunca farklı uygarlık ve kültürlere ev sahipliği yapmış, yüzyıllar
+          boyu çeşitli din, dil ve ırktan insanların bir arada yaşadığı kozmopolit ve metropolit yapısını korumuş ve
+          tarihsel süreçte eşsiz bir mozaik hâlini almıştır. Uzun zaman dilimleri boyunca her alanda merkez olmayı ve
+          iktidarda kalmayı başaran dünyadaki ender yerleşim yerlerinden biri olan İstanbul geçmişten günümüze bir dünya
+          başkentidir.</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#photography" class="active indigo-text text-darken-4">Beyaz Masa</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Bilgi Alma</a>
+          </li>
+        </ul>
+        <div id="photography" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Beyaz Masa</p>
+          <p>Beyaz Masa, kent sakinlerinin her türlü şikâyet, istek ve görüşlerini iletebilecekleribir belediye birimi.
+            24 saat hizmet veren bu birim onlara ulaşan tüm görüş ve talepleri değerlendirmeye alarak çözüm üretmeyi ve
+            verilen hizmetlerin daha verimli hale getirilmesini amaçlıyor</p>
+        </div>
+        <div id="editing" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Bilgi Alma</p>
+          <p><a href="https://www.ibb.istanbul/SitePage/Index/174">Ücret Tarifeleri</a></p>
+          <p> <a href="https://tesislerimiz.ibb.istanbul/">Sosyal Tesisler</a></p>
+          <p> <a href="https://www.kultur.istanbul/">Kültür Sanat Etkinlikleri</a></p>
+          <p> <a href="http://sehirharitasi.ibb.gov.tr/">Şehir Rehberi</a></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">İletişim</h2>
+        <p>İstanbul Büyükşehir Belediye Başkanlığı Kemalpaşa Mh. 15 Temmuz Şehitleri Cd. No:5 34134 Fatih / İSTANBUL
+          Telefon : +90 (212) 455 1300</p>
+        <p></p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form>
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">E-mail adresiniz</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+            <label for="message">Mesajınız</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">date_range</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Tarih</label>
+          </div>
+          <div class="input-field">
+            <p>İşlem yapmak istediğiniz yer</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Beyaz Masa</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Bilgi Alma/span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Onayla</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5>Hakkımda</h5>
+          <p>Anıl Kızıltan Bilgi Üniversitesi Bilgisayar Mühendisliği Öğrencisi</p>
+
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3"
+                href="#">Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/home">Twitter</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/feed/">Linked In</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2019 Anıl K. </div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+
+</html>
